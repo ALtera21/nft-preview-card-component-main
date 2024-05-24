@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: fixed; top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="cards">
+      <input type="checkbox" class="checkbox margin">
+      <img src="images/image-equilibrium.jpg" class="margin main-image">
+      <div class="hover-view flex">
+        <div class="hover-image"></div>
+        <img class="view" src="images\icon-view.svg">
+      </div>
+      <div class="name margin color">Equilibrium #3429</div>
+      <div class="description margin pointer-none">Our Equilibrium collection promotes balance and calm.</div>
+      <div class="price-and-time flex margin">
+        <div class="price pointer-none">
+          <div class="icon-shadow flex">
+            <img src="images\icon-ethereum.svg" class="eth-icon bounce">
+            <div class="shadow-eth scale"></div> 
+          </div>0.041 ETH</div>
+        <div class="time pointer-none"><img src="images\icon-clock.svg" class="clock-icon">3 days left</div>
+      </div>
+      <hr class="margin">
+      <div class="author flex margin">
+        <img class="pfp" src="images\image-avatar.png">
+        <p class="pointer-none">Creation of</p>
+        <p class="author-name color">Jules Wyvern</p>
+      </div>
+    </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ALtera21">notAltera</a>. You can click on the image to expand it.
+  </div> 
+
+</body>
+</html>
