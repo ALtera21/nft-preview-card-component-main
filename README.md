@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution here](https://www.frontendmentor.io/solutions/nft-card-you-can-expand-the-image-v9UevPKJO8)
+- Live Site URL: [live site URL here](https://altera21.github.io/nft-preview-card-component-main/)
 
 ### Built with
 
